@@ -1,0 +1,29 @@
+main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  min-height: 100vh;
+
+  font-family: sans-serif;
+}
+
+.container {
+  display: grid;
+  grid-template-columns: auto min(600px, 350px);
+}
+
+.body {
+  padding: 20px;
+}
+
+.cart {
+  background: #ccc;
+  padding: 20px;
+}
+
+img {
+  height: "100%";
+  object-fit: "contain";
+  user-select: "none";
+  width: "100%";
+}
